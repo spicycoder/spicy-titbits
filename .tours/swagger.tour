@@ -1,0 +1,26 @@
+{
+  "title": "Swagger",
+  "steps": [
+    {
+      "file": "src/SpicyRecepiesApi/SpicyRecipesApi.csproj",
+      "line": 16,
+      "description": "# Nuget Package\r\n\r\n[Swashbuckle](https://www.nuget.org/packages/Swashbuckle.AspNetCore/) nuget packages\r\n\r\n```sh\r\ndotnet add package Swashbuckle.AspNetCore --version 5.5.1\r\n```\r\n\r\n---\r\n"
+    },
+    {
+      "file": "src/SpicyRecepiesApi/appsettings.json",
+      "line": 9,
+      "description": "# Swagger Configurations\r\n\r\nConfigurations that go in Swagger UI Page\r\n\r\n---\r\n"
+    },
+    {
+      "file": "src/SpicyRecepiesApi/Startup.cs",
+      "line": 27,
+      "description": "# Swagger Generator\r\n\r\nConfigurations from `appsettings.json` is used here\r\n\r\n---"
+    },
+    {
+      "file": "src/SpicyRecepiesApi/Startup.cs",
+      "line": 73,
+      "description": "# Swagger UI\r\n\r\nUI Configurations for Swagger\r\n\r\n---\r\n"
+    }
+  ],
+  "ref": "master"
+}
